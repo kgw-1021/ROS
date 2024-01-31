@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import rospy
 
 from std_msgs.msg import Float64
@@ -7,7 +7,7 @@ from std_msgs.msg import Float64
 import numpy as np
 import copy as copy
 
-class InterpolateThrottle:
+class InterpolateThrottle: 
     def __init__(self):
 
         # Allow our topics to be dynamic.
